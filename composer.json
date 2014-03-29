@@ -20,5 +20,5 @@
             "Innsoft\\Bootsnippets\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
