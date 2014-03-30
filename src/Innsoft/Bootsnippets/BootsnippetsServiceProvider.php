@@ -36,7 +36,7 @@ class BootsnippetsServiceProvider extends ServiceProvider {
 		$this->app->booting(function()
 		{
 			$loader = \Illuminate\Foundation\AliasLoader::getInstance();
-			$loader->alias('HTML', 'Innsoft\Bootsnippets\Facades\Bootsnippets');
+			$loader->alias('Bootsnippets', 'Innsoft\Bootsnippets\Facades\Bootsnippets');
 		});
 	}
 
